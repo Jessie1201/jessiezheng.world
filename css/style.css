@@ -1110,7 +1110,8 @@ body:not(.ux-mobile) .header-bar-social {
   font-weight: bolder; font-weight: 900; 
 } 
 .text-slider-inn.middle-ux {
-  top: 54%
+  top: 54%;
+  left: -12%;
 }
 .slider-con {
   width: 100%; text-align:center; margin-top: 10px; padding-left: 10%; padding-right: 10%;
@@ -4768,4 +4769,17 @@ blockquote em, blockquote i, blockquote cite {
 
      [ End Animated Headline ]
 -----------------------------------------------------------------*/
-
+#overlay-main {
+  z-index: 101;
+  pointer-events: none;
+  background: url('../img/background2.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-blend-mode: multiply;
+  opacity: 0.8;
+}
