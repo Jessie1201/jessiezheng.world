@@ -4770,7 +4770,7 @@ blockquote em, blockquote i, blockquote cite {
 
      [ End Animated Headline ]
 -----------------------------------------------------------------*/
-#overlay-main {
+#theme-photo {
   z-index: 1;
   pointer-events: none;
   background: url('../img/background2.jpg') no-repeat center center fixed;
@@ -4782,5 +4782,4 @@ blockquote em, blockquote i, blockquote cite {
   width: 100%;
   height: 100%;
   background-blend-mode: multiply;
-  opacity: 0.8;
 }

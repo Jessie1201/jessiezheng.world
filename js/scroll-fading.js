@@ -1,7 +1,8 @@
 jQuery(document).ready(function($){
   var fadeStart = 100;
-  var fadeUntil = 3500;
-  var fading = $("#overlay-main");
+  // adjust fadeUntil value according to the number of projects
+  var fadeUntil = 1400;
+  var fading = $("#theme-photo");
 
   $(window).bind("scroll", function() {
     var offset = $(document).scrollTop();
