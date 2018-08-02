@@ -4781,5 +4781,12 @@ blockquote em, blockquote i, blockquote cite {
   position: fixed;
   width: 100%;
   height: 100%;
-  background-blend-mode: multiply;
+}
+
+#large-header {
+  z-index: 5;
+  pointer-events: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
 }
