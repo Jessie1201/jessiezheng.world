@@ -163,7 +163,7 @@ button, input[type="submit"],.ux-btn {
     overflow: hidden;
 }
 #wrap-outer { 
-  position: relative; left: 0; z-index: 100; width: 100%;
+  position: relative; left: 0; width: 100%;
 }
 #wrap { 
   position: relative; top: 0; max-width: 100%; width: 100%;  min-height: calc(100vh - 140px);
@@ -1112,6 +1112,7 @@ body:not(.ux-mobile) .header-bar-social {
 .text-slider-inn.middle-ux {
   top: 54%;
   left: -12%;
+  z-index: 2;
 }
 .slider-con {
   width: 100%; text-align:center; margin-top: 10px; padding-left: 10%; padding-right: 10%;
@@ -4349,7 +4350,7 @@ blockquote em, blockquote i, blockquote cite {
   body.responsive-ux #header-main > .container { height: 80px; }
   .responsive-ux .container-fluid { padding-right: 20px; padding-left: 20px; }
   .responsive-ux #wrap-outer { padding-top: 0; } 
-  .responsive-ux #wrap { position: relative; z-index: 998; }
+  .responsive-ux #wrap { position: relative;}
   .responsive-ux #header #logo .logo-h1 { line-height: 80px;} 
   .responsive-ux #header { height: 80px;}
   .responsive-ux.page_from_top #wrap { padding-top: 0; }
@@ -4770,7 +4771,7 @@ blockquote em, blockquote i, blockquote cite {
      [ End Animated Headline ]
 -----------------------------------------------------------------*/
 #overlay-main {
-  z-index: 101;
+  z-index: 1;
   pointer-events: none;
   background: url('../img/background2.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
