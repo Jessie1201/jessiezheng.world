@@ -850,7 +850,7 @@ body:not(.show_mobile_menu) .navi-trigger-hamberg-line {
   display: block; height: 100%; line-height: 1; min-width: 120px; letter-spacing: 4px; text-align: right;
 }
 .navi-trigger-text-inn {
-  position: absolute; display: inline-block; left: auto; right: 26px; top: 50%; margin-top: 1px;
+  position: absolute; display: inline; left: auto; right: 26px; top: 50%; margin-top: 1px;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -936,7 +936,7 @@ body:not(.ux-mobile) .header-bar-social {
 /* 2.1 General*/
 
 #footer {
-  position: fixed; z-index: -1; bottom:0; left: 0; right: 0; 
+  position: fixed; bottom:0; left: 0; right: 0; 
 }
 .footer-info {
   opacity: 0; letter-spacing: 2px;
