@@ -1106,7 +1106,7 @@ body:not(.ux-mobile) .header-bar-social {
   -webkit-background-clip: text;
 }
 .slider-headding {
-  font-weight: bolder; font-weight: 900; 
+  font-weight: bolder; font-weight: 900;
 } 
 .text-slider-inn.middle-ux {
   top: 54%;
@@ -4704,9 +4704,10 @@ blockquote em, blockquote i, blockquote cite {
      [ Start Animated Headline ]
 -----------------------------------------------------------------*/
 .cd-headline {
-  font-size: 3rem;
+  font-size: 42px;
   line-height: 1.2;
   white-space: nowrap;
+  padding-bottom: 24px;
 }
 
 .wrapping-words {
@@ -4789,4 +4790,28 @@ blockquote em, blockquote i, blockquote cite {
   position: fixed;
   width: 100%;
   height: 100%;
+}
+
+#category_brief {
+  text-align: center;
+  padding: 0 30% 0 30%;
+  font-size: 14px;
+  position: relative;
+  z-index: 2;
+  opacity: 0.6;
+}
+
+#brief_smartcity {
+  display: none;
+  padding-bottom: 7%;
+}
+
+#brief_ux {
+  display: none;
+  padding-bottom: 7%;
+}
+
+#brief_datamining {
+  display: none;
+  padding-bottom: 7%;
 }

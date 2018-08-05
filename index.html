@@ -207,14 +207,15 @@
                                 <span style="opacity: 0.3;">I Am</span> 
                                 <span class="wrapping-words">
                                     <b class="is-visible">Jessie Zheng</b>
-                                    <b>an Interaction Designer</b>
-                                    <b>a UX Developer</b>
-                                    <b>an HCI Enthusiast</b>
+                                    <b><strong style="opacity: 0.3;">an</strong> Interaction Designer</b>
+                                    <b><strong style="opacity: 0.3;">a</strong> UX Developer</b>
+                                    <b><strong style="opacity: 0.3;">an</strong> HCI Enthusiast</b>
                                 </span>
                             </h1>
                             <div class="slider-con">
                                 <div class="slider-con-inn">
-                                    <p><em>DESIGNing</em> and <em>BUILDing</em> lead all my pursuit.</p>
+                                    <p><b><em style="color: rgb(208,27,76);">Designing</em></b>&nbsp&nbsp&nbsp and building lead all my passion!</p>
+                                    <p><b><em style="color: rgb(208,27,76);">Searching</em></b>&nbsp&nbsp&nbsp for master thesis opportunities right now!</p>
                                 </div>
                             </div>
                         </div>
@@ -235,14 +236,36 @@
                                     <div class="clearfix filters">
 
                                         <ul class="filters-ul container">
-                                            <li class="filters-li active"><a id="all" class="filters-a" href="#" data-filter="*">All<span class="filter-num">11</span></a></li> 
-                                            <li class="filters-li"><a class="filters-a" data-filter=".filter_branding" href="#" data-catid="4" data-pageid="123">Smart City<span class="filter-num">7</span></a></li>
-                                            <li class="filters-li"><a class="filters-a" data-filter=".filter_illustration" href="#" data-catid="7" data-pageid="123">UX/Interaction<span class="filter-num">3</span></a></li>
-                                            <li class="filters-li"><a class="filters-a" data-filter=".filter_photography" href="#" data-catid="25" data-pageid="123">Data Mining<span class="filter-num">1</span></a></li>
+                                            <li class="filters-li active">
+                                                <a id="all" class="filters-a" href="#" data-filter="*">All<span class="filter-num">11</span></a>
+                                            </li> 
+                                            <li class="filters-li">
+                                                <a class="filters-a" id="smartcity" data-filter=".filter_branding" href="#" data-catid="4" data-pageid="123">Smart City<span class="filter-num">7</span></a>
+                                            </li>
+                                            <li class="filters-li">
+                                                <a class="filters-a" id="ux_interaction" data-filter=".filter_illustration" href="#" data-catid="7" data-pageid="123">UX/Interaction<span class="filter-num">3</span></a>
+                                            </li>
+                                            <li class="filters-li">
+                                                <a class="filters-a" id="datamining" data-filter=".filter_photography" href="#" data-catid="25" data-pageid="123">Data Mining<span class="filter-num">1</span></a>
+                                            </li>
                                         </ul>
                                                                 
                                     </div><!--End filter-->
 
+                                    <!--Category discription-->
+                                    <div id="category_brief">
+                                        <div id="brief_smartcity">
+                                            With the background in <em><b style="color: rgb(208,27,76);">Landscape Architecture</b></em>, Smart City is one of my most interested topics! I've been exploring the possibility of digital solutions for citizen well-being. Most of the projects are future-based concept design.
+                                        </div>
+                                        <div id="brief_ux">
+                                            Everything about the interaction between human and technology makes me excited! In these practical projects I mostly take the role of <em><b style="color: rgb(208,27,76);">user interface design</b></em> and <em><b style="color: rgb(208,27,76);">development</b></em>. Some projects also cover IoT hardware.
+                                        </div>
+                                        <div id="brief_datamining">
+                                            I've also started learning Data Mining which might further enable a better <em><b style="color: rgb(208,27,76);">Information Visualization</b></em>. If got any chance, I'd be much interested in HCI research topics such as <em><b style="color: rgb(208,27,76);">Affective Computing</b></em>.
+                                        </div>
+                                    </div><!--End category discription-->
+
+                                    <!--Masonry-list-->
                                     <div class="masonry-list masonry-grid grid-mask-filled-left" >
         
                                         <section class="grid-item grid-item-small filter_branding filter_illustration filter_works">
@@ -252,7 +275,9 @@
                                                     <a href="project-item-fullscreen-slider.html" class="grid-item-mask-link grid-item-open-url"></a>
                                             
                                                     <div class="grid-item-con-text">
-                                                        <span class="grid-item-cate"><a href="#" title="View all posts in Branding" class="grid-item-cate-a" data-filter=".filter_branding">Branding</a> <a href="#" class="grid-item-cate-a" data-filter=".filter_illustration">Illustration</a></span>
+                                                        <span class="grid-item-cate">
+                                                            <a href="#" class="grid-item-cate-a" data-filter=".filter_branding">Branding</a> 
+                                                            <a href="#" class="grid-item-cate-a" data-filter=".filter_illustration">Illustration</a></span>
                                                         <h2 class="grid-item-tit"><a href="project-item-fullscreen-slider.html" class="grid-item-tit-a">Sofisticada</a></h2>
                                                     </div>
                                                 </div>
@@ -554,13 +579,14 @@
         </div>
         <!-- jQuery Library -->
         <script src='js/library/jquery.min.js'></script>
-        <script src="js/library/jquery-migrate-3.0.0.min.js"></script>
         <!-- Animated.headline -->
         <script src="js/animated.headline.js"></script>
         <!-- Main Js Plugin -->
         <script src='js/main.min.js'></script>
         <!-- Air. Theme main js -->
         <script src='js/custom.theme.js'></script>
+        <!-- jessie's customerized js -->
+        <script src='js/jessie_theme.js'></script>
         <!-- scroll-fading photo -->
         <script src='js/scroll-fading.js'></script>
         <!-- particles cursor following -->
