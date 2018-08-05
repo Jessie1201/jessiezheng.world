@@ -926,7 +926,6 @@ body:not(.ux-mobile) .header-bar-social {
   display: none;
 }
 
-
  
 /*----------------------------------------------- 
 
@@ -4707,6 +4706,7 @@ blockquote em, blockquote i, blockquote cite {
 .cd-headline {
   font-size: 3rem;
   line-height: 1.2;
+  white-space: nowrap;
 }
 
 .wrapping-words {
