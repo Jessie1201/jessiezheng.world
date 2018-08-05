@@ -1,0 +1,85 @@
+/*===============================
+	 13. Timeline Section
+===============================*/
+
+ul, li, a {
+	margin: 0;
+	padding: 0
+}
+.timeline-flow {
+	margin-top: 70px
+}
+.timeline-flow ul {
+	list-style: none;
+	position: relative
+}
+.timeline-flow ul:before {
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	content: " ";
+	width: 1px;
+	background: #ddd;
+	left: 50%
+}
+.timeline-flow ul li {
+	margin-bottom: 15px;
+	position: relative;
+	text-align: right
+}
+.timeline-flow ul li:before, .timeline-flow ul li:after {
+	content: " ";
+	display: table
+}
+.timeline-flow ul li:after {
+	clear: both
+}
+.timeline-flow ul li:before, .timeline-flow ul li:after {
+	content: " ";
+	display: table
+}
+.timeline-flow ul li:after {
+	clear: both
+}
+.timeline-flow ul li .timeline-panel {
+	width: 48%;
+	float: left;
+	padding: 0px 15px;
+	position: relative;
+}
+.timeline-flow ul li .timeline-icon {
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 25px;
+	left: 50%;
+	margin-left: -7px;
+	background: #2B2F37;
+	z-index: 100;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+.timeline-flow ul li.timeline-inverted .timeline-panel {
+	float: right;
+	text-align: left
+}
+.timeline-flow p {
+	margin: 0;
+	font-size: 17px;
+}
+.timeline-title {
+	margin-bottom: 17px;
+}
+.timeline-title p {
+	font-weight: 500;
+}
+.timeline-title h5 {
+	font-size: 18px;
+	margin-top: 4px;
+	font-weight: 600
+}
+.timeline-text p {
+	line-height: 27px;
+}
+
