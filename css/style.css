@@ -4119,6 +4119,16 @@ blockquote em, blockquote i, blockquote cite {
   /* category descriptions */
   .responsive-ux #category_brief { padding: 0; font-size: 13px; font-size: 1.3rem; }
 
+  /* timeline */
+  .responsive-ux .timeline-flow { visibility: hidden; }
+  .responsive-ux #timeline_phone { display: block; position:absolute; top: 5%; left: -4.5%;}
+  .responsive-ux .socialmeida-li { visibility: hidden; }
+  .responsive-ux .download-cv { position: absolute; left: 38%; bottom: 5%; }
+
+  
+
+  
+
   /* h1-h6 */
   .responsive-ux .site-loading-logo .logo-h1 { font-size: 20px; }
   .responsive-ux h1 { font-size: 22px; font-size: 2.2rem; line-height: 1; }
@@ -4828,4 +4838,8 @@ blockquote em, blockquote i, blockquote cite {
 #brief_datamining {
   display: none;
   padding-bottom: 7%;
+}
+
+#timeline_phone {
+  display: none;
 }
