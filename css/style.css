@@ -4112,6 +4112,10 @@ blockquote em, blockquote i, blockquote cite {
 
   
   /* Content */
+  /* overlays */
+  .responsive-ux #large-header { visibility: hidden; }
+  .responsive-ux #theme-photo-cover { background-color: rgba(255,255,255,0.86); }
+
   /* h1-h6 */
   .responsive-ux .site-loading-logo .logo-h1 { font-size: 20px; }
   .responsive-ux h1 { font-size: 22px; font-size: 2.2rem; line-height: 1; }
@@ -4241,6 +4245,7 @@ blockquote em, blockquote i, blockquote cite {
 
 /* MAX 767 : for Pad */
 @media (max-width: 767px) {
+  .responsive-ux #theme-photo-cover { background-color: rgba(255,255,255,0.86); }
   .pull-right { float: none !important; }
   /* Custom ux */  
   .responsive-ux .container-fluid,
@@ -4407,7 +4412,7 @@ blockquote em, blockquote i, blockquote cite {
   .responsive-ux .post-navi-single > .container { padding: 0 40px; } 
   .responsive-ux .grid-item.filter-in-grid {  height: auto!important; }
   .responsive-ux .grid-item.filter-in-grid .grid-item-con {position: static;}
-  .responsive-ux .grid-item.filter-in-grid{ padding: 10px 0; }
+  .responsive-ux .grid-item.filter-in-grid .filters { padding: 10px 0; }
   .responsive-ux .grid-item.filter-in-grid .ux-lazyload-wrap { display: none; } 
 
   /* Other */
@@ -4778,6 +4783,15 @@ blockquote em, blockquote i, blockquote cite {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: right bottom;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+#theme-photo-cover {
+  z-index: 1;
+  pointer-events: none;
   position: fixed;
   width: 100%;
   height: 100%;
