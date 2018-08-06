@@ -4123,11 +4123,7 @@ blockquote em, blockquote i, blockquote cite {
   .responsive-ux .timeline-flow { visibility: hidden; }
   .responsive-ux #timeline_phone { display: block; position:absolute; top: 5%; left: -4.5%;}
   .responsive-ux .socialmeida-li { visibility: hidden; }
-  .responsive-ux .download-cv { position: absolute; left: 38%; bottom: 5%; }
-
-  
-
-  
+  .responsive-ux .download-cv { visibility: hidden; }
 
   /* h1-h6 */
   .responsive-ux .site-loading-logo .logo-h1 { font-size: 20px; }
