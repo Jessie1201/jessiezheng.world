@@ -1109,7 +1109,6 @@ body:not(.ux-mobile) .header-bar-social {
   font-weight: bolder; font-weight: 900;
 } 
 .text-slider-inn.middle-ux {
-  top: 54%;
   left: -12%;
   z-index: 2;
 }
@@ -4115,7 +4114,7 @@ blockquote em, blockquote i, blockquote cite {
   /* Content */
   /* h1-h6 */
   .responsive-ux .site-loading-logo .logo-h1 { font-size: 20px; }
-  .responsive-ux h1 { font-size: 28px; font-size: 2.8rem; line-height: 1; }
+  .responsive-ux h1 { font-size: 22px; font-size: 2.2rem; line-height: 1; }
   .responsive-ux h2 { font-size: 24px; font-size: 2.4rem; line-height: 1; }
   .responsive-ux h3 { font-size: 20px; font-size: 2rem; line-height: 1; }
   .responsive-ux h4 { font-size: 18px; font-size: 1.8rem; line-height: 1.25; }
@@ -4135,7 +4134,7 @@ blockquote em, blockquote i, blockquote cite {
   }
 
   /* slider */
-  .responsive-ux .text-slider-inn { padding: 0 2%; }
+  .responsive-ux .text-slider-inn { padding: 0 2%; left: 0;}
   .responsive-ux .top-slider, .responsive-ux .top-slider .carousel-img-wrap, .responsive-ux .top-slider .carousel-des-wrap {
     max-height: 380px; max-height: calc(100vh - 120px); 
   }
@@ -4408,7 +4407,7 @@ blockquote em, blockquote i, blockquote cite {
   .responsive-ux .post-navi-single > .container { padding: 0 40px; } 
   .responsive-ux .grid-item.filter-in-grid {  height: auto!important; }
   .responsive-ux .grid-item.filter-in-grid .grid-item-con {position: static;}
-  .responsive-ux .grid-item.filter-in-grid .filters { padding: 10px 0; }
+  .responsive-ux .grid-item.filter-in-grid{ padding: 10px 0; }
   .responsive-ux .grid-item.filter-in-grid .ux-lazyload-wrap { display: none; } 
 
   /* Other */
