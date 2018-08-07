@@ -574,7 +574,7 @@ body.start-from-top.page #wrap-outer {
   vertical-align: middle;
 } 
 .logo-image { 
-  height:auto; width: auto; max-width: 240px; max-height: 120px; vertical-align: middle;
+  height:auto; width: auto; max-width: 240px; max-height: 120px; vertical-align: middle; opacity: 0.5;
 } 
 .logo-invert {
   opacity: 0; position: absolute; left: 0; right: 0; top: 0; bottom: 0; 
