@@ -4121,7 +4121,7 @@ blockquote em, blockquote i, blockquote cite {
 
   /* timeline */
   .responsive-ux .timeline-flow { visibility: hidden; }
-  .responsive-ux #timeline_phone { display: block; position:absolute; top: 5%; left: -4.5%;}
+  .responsive-ux #timeline_phone { display: block; }
   .responsive-ux .socialmeida-li { visibility: hidden; }
   .responsive-ux .download-cv { visibility: hidden; }
 
@@ -4834,8 +4834,4 @@ blockquote em, blockquote i, blockquote cite {
 #brief_datamining {
   display: none;
   padding-bottom: 7%;
-}
-
-#timeline_phone {
-  display: none;
 }

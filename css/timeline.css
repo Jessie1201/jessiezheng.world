@@ -84,3 +84,9 @@ ul, li, a {
 .timeline-text p {
 	line-height: 27px;
 }
+#timeline_phone {
+	display: none;
+	position: relative;
+	text-align: center;
+	top: 200px;
+}
