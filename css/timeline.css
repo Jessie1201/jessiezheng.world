@@ -3,9 +3,10 @@ ul, li, a {
 	padding: 0
 }
 #timeline {
-	position: absolute;
-	top: 4%;
-	left: 10%;
+	position: relative;
+	text-align: center;
+	top: -200px;
+	height: 400px;
 }
 .timeline-flow {
 	margin-top: 70px
