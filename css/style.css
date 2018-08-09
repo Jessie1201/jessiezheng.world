@@ -1252,6 +1252,7 @@ body[class*="Safari"] .mask-clip-title .title-wrap-tit {
 }
 .grid-item-tit-a {
   display: block;
+  color: rgb(208,27,76);
 }
 .grid-item-cate {
   display: inline-block; margin-bottom: 10px;
@@ -3748,13 +3749,17 @@ h3#reply-title small, #comments .nav-tabs li.active h3#reply-title .logged,#comm
 /* Portfolio List - Title for Item */
 .grid-item-tit,.grid-item-tit-a:hover
 { 
-  color: #313139;
+  color: rgba(208,27,76,0.4);
 }
 
 /* Portfolio List - Tag for Item */
 .grid-item-cate-a
 { 
-  color: #313139;
+  color: rgb(208,27,76);
+}
+.grid-item-cate-a:hover
+{ 
+  color: rgba(208,27,76,0.4);
 }
 
 /* Portfolio List - Mask for Item */
