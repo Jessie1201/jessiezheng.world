@@ -1,7 +1,7 @@
 jQuery(document).ready(function($){
   var fadeStart = 100;
   // adjust fadeUntil value according to the number of projects
-  var fadeUntil = 900;
+  var fadeUntil = 820;
   var fading = $(".scroll_fading");
 
   $(window).bind("scroll", function() {
