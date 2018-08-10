@@ -66,6 +66,19 @@ ul, li, a {
 	float: right;
 	text-align: left
 }
+.zoomin_self {
+	pointer-events: none;
+	-webkit-transition: -webkit-transform 300ms ease-out 75ms; /* Safari */
+    transition: transform 300ms ease-out 75ms;
+}
+.timeline-icon, .timeline-panel {
+	pointer-events: auto;
+}
+.zoomin_self:hover {
+	-ms-transform: scale(1.26, 1.26); /* IE 9 */
+    -webkit-transform: scale(1.26, 1.26); /* Safari */
+    transform: scale(1.26, 1.26);
+}
 .timeline-flow p {
 	margin: 0;
 	font-size: 17px;
