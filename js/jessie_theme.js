@@ -1,5 +1,5 @@
-// Filter category descriptions
 jQuery(function($) {
+  // Filter category descriptions
   $(document).ready(function(){
       $("#smartcity").click(function(){
           $("#brief_smartcity").fadeIn(800);
@@ -22,4 +22,5 @@ jQuery(function($) {
           $("#brief_datamining").hide();
       });
   });
+
 });

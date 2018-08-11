@@ -66,6 +66,8 @@ ul, li, a {
 	float: right;
 	text-align: left
 }
+
+/* hover for zooming in */
 .zoomin_self {
 	pointer-events: none;
 	-webkit-transition: -webkit-transform 300ms ease-out 75ms; /* Safari */
@@ -79,6 +81,8 @@ ul, li, a {
     -webkit-transform: scale(1.26, 1.26); /* Safari */
     transform: scale(1.26, 1.26);
 }
+/* end hover for zooming in */
+
 .timeline-flow p {
 	margin: 0;
 	font-size: 17px;
