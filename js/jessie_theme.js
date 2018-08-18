@@ -23,4 +23,9 @@ jQuery(function($) {
       });
   });
 
+  // Haptics project demo link fades on scroll
+  $(window).scroll(function(){
+    $("#haptics_demo").css("opacity", 1 - $(window).scrollTop() / 350);
+  });
+
 });

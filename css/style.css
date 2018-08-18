@@ -4840,3 +4840,15 @@ blockquote em, blockquote i, blockquote cite {
   display: none;
   padding-bottom: 7%;
 }
+
+#haptics_demo {
+  position: fixed;
+  top: 53%;
+  left: 55.5%;
+  color: rgb(208,27,76);
+  z-index: -10;
+}
+#haptics_demo:hover
+{ 
+  color: rgba(208,27,76,0.4);
+}
