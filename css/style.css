@@ -1323,7 +1323,7 @@ body[class*="Safari"] .mask-clip-title .title-wrap-tit {
 }
 .grid-mask-filled-left .grid-item-con:hover:after,
 .grid-mask-filled-center .grid-item-con:hover:after { 
-  opacity: 1;
+  opacity: 0.925;
   -webkit-transform:scale(1.4);
   -moz-transform:scale(1.4);
   -ms-transform:scale(1.4);
