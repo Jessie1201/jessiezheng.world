@@ -1109,7 +1109,8 @@ body:not(.ux-mobile) .header-bar-social {
   font-weight: bolder; font-weight: 900;
 } 
 .text-slider-inn.middle-ux {
-  left: -12%;
+  left: -19%;
+  top: 53%;
   z-index: 2;
 }
 .slider-con {
