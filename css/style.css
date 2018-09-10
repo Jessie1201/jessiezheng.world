@@ -4821,7 +4821,7 @@ blockquote em, blockquote i, blockquote cite {
 
 #category_brief {
   text-align: center;
-  padding: 0 30% 0 30%;
+  padding: 0 12% 0 12%;
   font-size: 14px;
   position: relative;
   z-index: 2;
@@ -4852,4 +4852,9 @@ blockquote em, blockquote i, blockquote cite {
 #haptics_demo:hover
 { 
   color: rgba(208,27,76,0.4);
+}
+
+.category_active {
+  font-weight: bold;
+  font-style: italic;
 }
