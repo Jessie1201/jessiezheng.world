@@ -4158,6 +4158,7 @@ blockquote em, blockquote i, blockquote cite {
     max-height: 380px; max-height: calc(100vh - 120px); 
   }
   .responsive-ux .top-slider .carousel-des-wrap-inn { display: none; }
+  .responsive-ux .slider-con-inn { font-size: 13px; font-size: 1.3rem; }
 
   /* Header */
   .responsive-ux #logo img { max-width:120px; height:auto; } 
