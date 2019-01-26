@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
 	//set animation timing
-	var animationDelay = 2800,
+	var animationDelay = 3200, //first title time
 		//loading bar effect
 		barAnimationDelay = 3800,
 		barWaiting = barAnimationDelay - 3000, //3000 is the duration of the transition on the loading bar - set in the scss/css file
@@ -12,7 +12,7 @@ jQuery(document).ready(function($){
 		typeAnimationDelay = selectionDuration + 800,
 		//clip effect 
 		revealDuration = 600,
-		revealAnimationDelay = 2500;
+		revealAnimationDelay = 2800;
 	
 	initHeadline();
 	
