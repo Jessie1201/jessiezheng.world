@@ -768,21 +768,21 @@ var JS_PATH = "js";
 					return false;
 				});
 
-				if(_this_wrap.find('.grid-item-cate-a').length) {
-					$('.grid-item-cate-a').each(function(){
-						$(this).on( 'click', function() {
-							var filterValue = $( this ).attr('data-filter');
-							$iso_list.isotope({ filter: filterValue });
-							_filters.find('li').removeClass('active');
-							_filters.find('[data-filter="'+filterValue+'"]').parent().addClass('active');
-							setTimeout(function() {
-								$(window).lazyLoadXT();
-								$iso_list.find('.grid-item-inside').addClass('grid-show'); 
-							}, 50);
-							return false;
-						});
-					});
-				} 
+				// if(_this_wrap.find('.grid-item-cate-a').length) {
+				// 	$('.grid-item-cate-a').each(function(){
+				// 		$(this).on( 'click', function() {
+				// 			var filterValue = $( this ).attr('data-filter');
+				// 			$iso_list.isotope({ filter: filterValue });
+				// 			_filters.find('li').removeClass('active');
+				// 			_filters.find('[data-filter="'+filterValue+'"]').parent().addClass('active');
+				// 			setTimeout(function() {
+				// 				$(window).lazyLoadXT();
+				// 				$iso_list.find('.grid-item-inside').addClass('grid-show'); 
+				// 			}, 50);
+				// 			return false;
+				// 		});
+				// 	});
+				// } 
 			}
 			
 			//call page load more
@@ -915,17 +915,17 @@ var JS_PATH = "js";
 			
 			if(_this_wrap.find('.filters').length) {
 				 
-				if(_this_wrap.find('.grid-item-cate-a').length) {
-					$('.grid-item-cate-a').each(function(){
-						$(this).on( 'click', function() {
-							var filterValue = $( this ).attr('data-filter');
-							$iso_list.isotope({ filter: filterValue });
-							_filters.find('li').removeClass('active');
-							_filters.find('[data-filter="'+filterValue+'"]').parent().addClass('active');
-							return false;
-						});
-					});
-				} 
+				// if(_this_wrap.find('.grid-item-cate-a').length) {
+				// 	$('.grid-item-cate-a').each(function(){
+				// 		$(this).on( 'click', function() {
+				// 			var filterValue = $( this ).attr('data-filter');
+				// 			$iso_list.isotope({ filter: filterValue });
+				// 			_filters.find('li').removeClass('active');
+				// 			_filters.find('[data-filter="'+filterValue+'"]').parent().addClass('active');
+				// 			return false;
+				// 		});
+				// 	});
+				// } 
 			}
 
 			if(_this.hasClass('masonry-grid')) {
