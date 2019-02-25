@@ -4868,7 +4868,7 @@ blockquote em, blockquote i, blockquote cite {
   border: 40px solid #ddd;
   border-width: 55px 7px;
   border-radius: 40px;
-  margin: 50px auto;
+  margin-left: 80px;
   overflow: hidden;
   transition: all 0.5s ease;
 }
@@ -4881,10 +4881,8 @@ blockquote em, blockquote i, blockquote cite {
 
 .phone {
   width: 388px;
-  height: 710px;
-  position: fixed;
-  left: 10%;
-  top: -35px;
-  transform: rotateX(20deg) rotateY(0deg) rotateZ(-7deg);
+  height: 690px;
+  margin-top: 18px;
+  transform: rotateX(5deg) rotateY(6deg) rotateZ(-6deg);
   box-shadow: -3px 3px 0 #BBB, -6px 6px 0 #BBB, -9px 9px 0 #BBB, -12px 12px 0 #BBB, -14px 10px 20px #666;
 }
