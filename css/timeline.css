@@ -5,7 +5,7 @@ ul, li, a {
 #timeline {
 	position: relative;
 	text-align: center;
-	top: -200px;
+	top: -230px;
 	height: 400px;
 }
 .timeline-flow {
